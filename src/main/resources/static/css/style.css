@@ -1,0 +1,17 @@
+/* styles.css */
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#radioList {
+    list-style: none;
+    padding: 0;
+}
+
+#radioList li {
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}

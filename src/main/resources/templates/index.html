@@ -1,0 +1,19 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio App</title>
+    <link  rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+    <h1>Radio Stations</h1>
+    <ul id="radioList"></ul>
+    <audio id="audioPlayer" controls></audio>
+</div>
+
+<script th:src="@{/js/js.js}"></script>
+</body>
+</html>
